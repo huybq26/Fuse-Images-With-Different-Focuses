@@ -1,0 +1,203 @@
+body {
+  /* background-color: #a598ee; */
+  background-image: url('https://petro.wovodat.org/assets/slider-img/option_5.png');
+  /* background-size: cover; */
+  background-position: center center;
+  width: 100%;
+}
+
+header {
+  color: #fff;
+  text-align: center;
+}
+
+.cal-wrapper > div {
+  background: #fff;
+  width: 100%;
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+}
+
+/* Input */
+div.input input[type='text'] {
+  width: 100%;
+  padding: 1px 3px;
+  margin: 1px;
+  font-size: 12px;
+}
+
+/* div.input button {
+  background: #63c76a;
+}
+
+div.input button:hover {
+  background: #50c058;
+}
+
+div.input button:disabled {
+  background: #63c76a !important;
+}
+
+div.input .upload div.custom-file {
+  max-width: 30%;
+  margin-right: 30px;
+}
+
+div.input .button-cal,
+div.input .button-upload-inibound {
+  position: absolute;
+  bottom: 0;
+  left: 1rem;
+}
+
+div.input .button-inibound {
+  position: absolute;
+  bottom: 0;
+  left: 6rem;
+} */
+
+.playbutton-wrapper {
+  text-align: center;
+}
+.playbutton-wrapper button {
+  height: 34px;
+  padding: 0 10px;
+  font-size: 14px;
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.goto-controls .button {
+  display: inline-block;
+  font-size: 14px;
+  height: 2.6em;
+  line-height: 2.6;
+  padding: 0 1em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+.tns-controls {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.tns-controls [aria-controls] {
+  font-size: 15px;
+  margin: 0 5px;
+  padding: 0 1em;
+  height: 2.5em;
+  color: #000;
+  background: #66ccff;
+  border-radius: 3px;
+  border: 0;
+}
+
+.goto-controls .button {
+  min-width: 4em;
+  border: none;
+  color: #fff;
+  background-color: #333;
+  cursor: pointer;
+}
+
+div.input .file-inibound {
+  position: absolute;
+  bottom: 3rem;
+  left: 1rem;
+}
+
+div.input .calculation-result td,
+div.input .calculation-result th {
+  border: 1px solid #dddddd;
+}
+
+div.input .calculation-result td:last-child {
+  border: none;
+}
+
+/* Model-result */
+
+div.model-result td,
+div.model-result th {
+  border: 1px solid #dddddd;
+  text-align: left;
+}
+
+div.model-result th,
+div.model-result td:last-child {
+  border: none;
+}
+
+/* Footer */
+footer.page-footer {
+  font-size: 12px;
+  background-color: #2e2d36;
+  color: #fff;
+}
+
+/* body{
+    font-family: 'Segoe UI';
+    font-size: 12pt;
+} */
+
+/* header h1 {
+  font-size: 12pt;
+  color: #fff;
+  background-color: #1ba1e2;
+  padding: 20px;
+} */
+article {
+  width: 100%;
+  /* margin: auto; */
+  margin-top: 10px;
+}
+
+.thumbnail {
+  height: 100px;
+  margin: 10px;
+  /* flex-direction: row;
+  justify-content: right; */
+}
+
+.result-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
+.lt-ie9 .tns-controls > [aria-controls] {
+  line-height: 2.5em;
+}
+[data-action] {
+  display: block;
+  margin: 10px auto;
+  font-size: 17px;
+  min-width: 3em;
+  text-align: center;
+  background: transparent;
+  border: 0;
+}
+.tns-controls [disabled] {
+  color: #999999;
+  background: #b3b3b3;
+  cursor: not-allowed !important;
+}
+.tns-nav {
+  text-align: center;
+  margin: 10px 0;
+}
+.tns-nav > [aria-controls] {
+  width: 9px;
+  height: 9px;
+  padding: 0;
+  margin: 0 5px;
+  border-radius: 50%;
+  background: #ddd;
+  border: 0;
+}
+.tns-nav > .tns-nav-active {
+  background: #999;
+}

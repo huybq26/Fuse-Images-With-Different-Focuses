@@ -1,0 +1,14 @@
+Configuration notes: 
+- The SESF Fuse is designed for only computer/server with Nvidia GPU Card installed. For those who do not have GPU, need to change the original code to CPU-supported.
+Some basic steps to change on ./nets/sesf_net.py
+- Delete any cuda-related part.
+- Change self.device = torch.device('cpu'), and self.model.load_state_dict(torch.load(
+            self.model_path, map_location=torch.device('cpu')))
+- Install torch,  torchvision and torchaudio with cpuonly.
+
+The conda environment used in my laptop is torch_env, while in the wovodat server is ashapp -> conda activate ashapp/torch_env
+Use conda install pip, and use pip to install all of the packages. Use conda install packages will result in dependencies error.
+
+- Try to run the image processing code with image received from Damia and evaluate or improve its quality. It is the main focus now, not the website lol. Send Damia the processed image and check if they are good or not.
+
+
